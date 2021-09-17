@@ -199,11 +199,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\FTI_Tecnologia\\FTI_Turma 3\\01_windowsApplicationGIT\\webApplicationFTI\\webApplicationFTI\\webApplicationFTI\\webApplicationFTI.csproj",
+      "projectUniqueName": "E:\\FTI_Tecnologia\\FTI_Turma 3\\02_windowsApplicationGIT\\webApplicationFTI\\webApplicationFTI\\webApplicationFTI\\webApplicationFTI.csproj",
       "projectName": "webApplicationFTI",
-      "projectPath": "E:\\FTI_Tecnologia\\FTI_Turma 3\\01_windowsApplicationGIT\\webApplicationFTI\\webApplicationFTI\\webApplicationFTI\\webApplicationFTI.csproj",
+      "projectPath": "E:\\FTI_Tecnologia\\FTI_Turma 3\\02_windowsApplicationGIT\\webApplicationFTI\\webApplicationFTI\\webApplicationFTI\\webApplicationFTI.csproj",
       "packagesPath": "C:\\Users\\Anderson\\.nuget\\packages\\",
-      "outputPath": "E:\\FTI_Tecnologia\\FTI_Turma 3\\01_windowsApplicationGIT\\webApplicationFTI\\webApplicationFTI\\webApplicationFTI\\obj\\",
+      "outputPath": "E:\\FTI_Tecnologia\\FTI_Turma 3\\02_windowsApplicationGIT\\webApplicationFTI\\webApplicationFTI\\webApplicationFTI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
