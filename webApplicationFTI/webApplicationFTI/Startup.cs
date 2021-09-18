@@ -11,6 +11,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using webApplicationFTI.Model;
+using webApplicationFTI.Services.Implementations;
 
 namespace webApplicationFTI
 {
@@ -28,10 +30,9 @@ namespace webApplicationFTI
         {
 
             services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "webApplicationFTI", Version = "v1" });
-            });
+            
+            //ingeção de dependência
+            services.AddScoped<IPersonService, PersonServiceImplementation>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,8 +41,8 @@ namespace webApplicationFTI
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "webApplicationFTI v1"));
+                //app.UseSwagger();
+                //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "webApplicationFTI v1"));
             }
 
             app.UseHttpsRedirection();
